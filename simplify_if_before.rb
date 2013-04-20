@@ -1,5 +1,6 @@
 #source: Sumeet Kumar
 
+\~~~~~~~~
 def self.get_slope(array, index)
   mid = array[index]
   left = array[index -1]
@@ -15,3 +16,4 @@ def self.get_slope(array, index)
     end
   end
 end
+\~~~~~~~~

@@ -5,13 +5,13 @@
 
 \~~~~~~~~
 def self.move_when_facing_north move
-	turn_east if move == "r"
-	turn_west if move == "l"
-	if move == "f"
-		increase_y_coordinate
-	end
-	if move == "b"
-		decrease_y_coordinate
-	end
+  turn_east if move == "r"
+  turn_west if move == "l"
+  if move == "f"
+    increase_y_coordinate
+  end
+  if move == "b"
+    decrease_y_coordinate
+  end
 end
 \~~~~~~~~
